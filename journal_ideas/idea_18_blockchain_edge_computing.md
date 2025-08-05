@@ -1,0 +1,10 @@
+# Real-Time Edge Chain: A Novel Blockchain Architecture for Time-Critical IIoT Applications
+
+## Abstract
+This paper introduces Real-Time Edge Chain (RTEC), a novel blockchain architecture designed for time-critical IIoT applications. RTEC combines a lightweight consensus mechanism with a two-tier architecture, consisting of a real-time edge chain and a more traditional master chain. The edge chain is responsible for processing time-sensitive transactions with low latency, while the master chain provides a more secure and immutable record of the network's state. We demonstrate the effectiveness of RTEC through a prototype implementation and a series of experiments. Our results show that RTEC can achieve a significant reduction in latency compared to existing blockchain solutions, without sacrificing security or decentralization.
+
+## Introduction
+The IIoT is characterized by a growing number of applications that require real-time data processing. From industrial control systems to autonomous vehicles, the ability to process data with low latency is critical for the safety and reliability of these systems. Existing blockchain solutions, however, are not well-suited for these time-critical applications. The latency introduced by their consensus mechanisms can be unacceptably high. This paper proposes a new blockchain architecture, RTEC, that is specifically designed to address this challenge.
+
+## Related Works
+The problem of blockchain scalability has been the subject of intense research in recent years. Layer-2 solutions like state channels and sidechains have been proposed to improve the throughput and reduce the latency of blockchain networks. Our work is inspired by these ideas, but it is the first to propose a two-tier architecture that is specifically designed for time-critical IIoT applications. By combining a real-time edge chain with a more traditional master chain, we are able to achieve the best of both worlds: low latency for time-sensitive transactions and high security for the overall network.

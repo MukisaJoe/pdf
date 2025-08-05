@@ -1,0 +1,10 @@
+# From Theory to Production: A Case Study in the Full-Stack Development of a Modular AI Tutoring System
+
+## Abstract
+The journey from a research idea to a production-grade system is often long and arduous. This paper provides a detailed case study of the full-stack development of a modular AI tutoring system. We document our entire process, from the initial theoretical work on model distillation to the implementation of a scalable and user-friendly web and mobile interface. We discuss the challenges we faced and the solutions we developed at each stage of the development process, including our choice of a tech stack (React, FastAPI, Flask, and Flutter), our approach to system architecture, and our strategy for user testing and deployment. This paper provides a rare and valuable look into the practical realities of building and deploying a complex AI system.
+
+## Introduction
+Much of the academic literature on AI focuses on the theoretical aspects of model development and training. There is a comparative lack of research that documents the equally important process of building and deploying these models in the real world. This paper aims to fill this gap by providing a comprehensive case study of the full-stack development of a modular AI tutoring system. We believe that by sharing our experiences, we can help to bridge the gap between theory and practice and provide a valuable resource for other researchers who are embarking on the challenging but rewarding journey of building real-world AI systems.
+
+## Related Works
+The "systems" track at major AI conferences has become an increasingly popular venue for papers that focus on the practical aspects of building and deploying AI systems. However, many of these papers still focus on a narrow slice of the development process. Our work is unique in its scope, covering the entire full-stack development process, from the backend AI models to the frontend user interface. By providing a holistic view of the development process, we hope to provide a more complete and useful resource for the AI community.
