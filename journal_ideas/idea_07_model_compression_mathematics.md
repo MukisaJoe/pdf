@@ -1,0 +1,10 @@
+# Cosine-Preserving Quantization: A Novel, Mathematically-Grounded Approach to LLM Compression
+
+## Abstract
+This paper introduces Cosine-Preserving Quantization (CPQ), a novel and mathematically-grounded approach to LLM compression. Inspired by the principles of TRIZ, CPQ leverages the properties of sine and cosine transforms to quantize model weights while preserving the directional information encoded in the model's embedding space. We provide a detailed theoretical analysis of CPQ and demonstrate its effectiveness through a series of experiments on popular LLMs. Our results show that CPQ can achieve a higher compression ratio than existing methods while maintaining or even improving performance on tasks that rely on semantic similarity.
+
+## Introduction
+The ability of LLMs to understand and generate human language is rooted in their ability to represent words and sentences as vectors in a high-dimensional embedding space. The geometric relationships between these vectors, particularly the cosine similarity, capture the semantic relationships between the corresponding words and sentences. Existing quantization methods, however, are often agnostic to this geometric structure, leading to a loss of semantic information and a degradation in model performance. This paper proposes a new approach to quantization, one that is explicitly designed to preserve the cosine similarity between embedding vectors.
+
+## Related Works
+The problem of preserving geometric structure in dimensionality reduction has a long history in machine learning. Techniques like t-SNE and UMAP are designed to preserve the local or global structure of data when embedding it in a lower-dimensional space. However, the application of these ideas to model quantization is a relatively new area of research. Our work is the first to propose a quantization method that is explicitly designed to preserve cosine similarity. By grounding our approach in the mathematics of sine and cosine transforms, we are able to develop a method that is not only effective but also theoretically well-founded.
